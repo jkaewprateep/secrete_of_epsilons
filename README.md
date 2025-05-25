@@ -23,7 +23,8 @@ def action_epsilon(step, rewards):
 
     return epsilon > 0.00012
 ```
-
+👧💬 🎈 Applying it is too easy and adjusting to fast and slow learners. </br>
+🐑💬 ➰ You can select your custom epsilon function over a linear function that is because you selected the scopes variable. You can add the length of the snakes or their shape to select use the random function or not. </br>
 ```
 if not action_epsilon(step, reward) :
     action = random_action(_gamestate);
